@@ -1,0 +1,29 @@
+{
+    "LoginPage": {
+        "startBtn": "//button[text()='Get Started']",
+        "emailLabel": "//span[text()='Email:']",
+        "emailText": "[id='email']",
+        "passwordLabel": "//span[text()='Password:']",
+        "passwordText": "[id='password']",
+        "loginBtn": "//button[text()='Login']",
+        "invalidEmailError": "//input[@id='email']/following-sibling::span",
+        "invalidPasswordError": "//input[@id='password']/following-sibling::span",
+        "registerUser": "//a[text()='Register here']"
+    },
+    "HomePage": {
+        "dashBoardText": "(//a[text()='Dashboard'])[1]"
+    },
+    "RegisterPage": {
+        "firstName": "[id='firstName']",
+        "lastName": "[id='lastName']",
+        "email": "[id='email']",
+        "password": "[id='password']",
+        "confirmPassword": "[id='confirmPassword']",
+        "registerBtn": "//button[text()='Register']",
+        "firstNameErrorMsg": " //input[@id='firstName']/following-sibling::span",
+        "lastNameErrorMsg": "//input[@id='lastName']/following-sibling::span",
+        "emailErrorMsg": "//input[@id='email']/following-sibling::span",
+        "passwordErrorMsg": "//input[@id='password']/following-sibling::span",
+        "confirmPasswordErrorMsg": "//input[@id='confirmPassword']/following-sibling::span"
+    }
+}
